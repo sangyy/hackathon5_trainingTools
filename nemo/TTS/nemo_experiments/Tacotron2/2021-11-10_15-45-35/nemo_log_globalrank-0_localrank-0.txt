@@ -1,0 +1,37 @@
+[NeMo W 2021-11-10 15:45:34 optimizers:47] Apex was not found. Using the lamb optimizer will error out.
+[NeMo W 2021-11-10 15:45:35 experimental:27] Module <class 'nemo.collections.asr.data.audio_to_text_dali._AudioTextDALIDataset'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo I 2021-11-10 15:45:35 exp_manager:220] Experiments will be logged at /home/user0/1_NVDC/0_skyHackathon/2111-tlt-nemo/ASR_TTS_training/TTS/nemo_experiments/Tacotron2/2021-11-10_15-45-35
+[NeMo I 2021-11-10 15:45:35 exp_manager:569] TensorboardLogger has been set up
+[NeMo W 2021-11-10 15:45:35 nemo_logging:349] /home/user0/miniconda3/lib/python3.8/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:240: LightningDeprecationWarning: `ModelCheckpoint(every_n_val_epochs)` is deprecated in v1.4 and will be removed in v1.6. Please use `every_n_epochs` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2021-11-10 15:45:35 nemo_logging:349] /home/user0/miniconda3/lib/python3.8/site-packages/torch/cuda/__init__.py:120: UserWarning: 
+        Found GPU%d %s which is of cuda capability %d.%d.
+        PyTorch no longer supports this GPU because it is too old.
+        The minimum cuda capability supported by this library is %d.%d.
+        
+      warnings.warn(old_gpu_warn.format(d, name, major, minor, min_arch // 10, min_arch % 10))
+    
+[NeMo I 2021-11-10 15:45:36 collections:173] Dataset loaded with 12 files totalling 0.01 hours
+[NeMo I 2021-11-10 15:45:36 collections:174] 0 files were filtered totalling 0.00 hours
+[NeMo I 2021-11-10 15:45:36 collections:173] Dataset loaded with 4 files totalling 0.00 hours
+[NeMo I 2021-11-10 15:45:36 collections:174] 0 files were filtered totalling 0.00 hours
+[NeMo W 2021-11-10 15:45:36 nemo_logging:349] /home/user0/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py:478: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+      warnings.warn(_create_warning_msg(
+    
+[NeMo I 2021-11-10 15:45:36 features:262] PADDING: 16
+[NeMo I 2021-11-10 15:45:36 features:279] STFT using torch
+[NeMo I 2021-11-10 15:45:37 modelPT:544] Optimizer config = Adam (
+    Parameter Group 0
+        amsgrad: False
+        betas: (0.9, 0.999)
+        eps: 1e-08
+        lr: 0.001
+        weight_decay: 1e-06
+    )
+[NeMo I 2021-11-10 15:45:37 lr_scheduler:621] Scheduler "<nemo.core.optim.lr_scheduler.CosineAnnealing object at 0x7f3b18013f40>" 
+    will be used during training (effective maximum steps = 1500) - 
+    Parameters : 
+    (min_lr: 1.0e-05
+    max_steps: 1500
+    )

@@ -1,0 +1,1 @@
+tacotron2.py train_dataset=train_manifest_tts.json validation_datasets=test_manifest_tts.json trainer.max_epochs=1500 trainer.accelerator=null trainer.check_val_every_n_epoch=1

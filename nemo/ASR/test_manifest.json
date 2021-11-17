@@ -1,0 +1,4 @@
+{"audio_filepath": "/root/testdata/cat_t.wav", "duration": 4.887800453514739, "text": "请指出哪张序列号的图片是猫"}
+{"audio_filepath": "/root/testdata/dog_t.wav", "duration": 5.596009070294785, "text": "请指出哪张序列号的图片是狗"}
+{"audio_filepath": "/root/testdata/horse_t.wav", "duration": 5.12, "text": "请指出哪张序列号的图片是马"}
+{"audio_filepath": "/root/testdata/person_t.wav", "duration": 4.794920634920635, "text": "请指出哪张序列号的图片是人"}

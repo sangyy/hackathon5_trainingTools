@@ -1,0 +1,4 @@
+{"audio_filepath": "./testdata/tts_cat_t.wav", "duration": 3.4713832199546486, "text": "猫图片的序列号是1"}
+{"audio_filepath": "./testdata/tts_dog_t.wav", "duration": 3.2043537414965986, "text": "狗图片的序列号是2"}
+{"audio_filepath": "./testdata/tts_horse_t.wav", "duration": 3.320453514739229, "text": "马图片的序列号是3"}
+{"audio_filepath": "./testdata/tts_person_t.wav", "duration": 3.1695238095238096, "text": "人图片的序列号是4"}

@@ -1,0 +1,12 @@
+{"audio_filepath": "./traindata/tts_cat1.wav", "duration": 3.93578231292517, "text": "猫图片的序列号是1"}
+{"audio_filepath": "./traindata/tts_cat2.wav", "duration": 2.5774149659863945, "text": "猫图片的序列号是1"}
+{"audio_filepath": "./traindata/tts_cat3.wav", "duration": 2.9768480725623583, "text": "猫图片的序列号是1"}
+{"audio_filepath": "./traindata/tts_dog1.wav", "duration": 3.308843537414966, "text": "狗图片的序列号是2"}
+{"audio_filepath": "./traindata/tts_dog2.wav", "duration": 3.3901133786848074, "text": "狗图片的序列号是2"}
+{"audio_filepath": "./traindata/tts_dog3.wav", "duration": 3.3436734693877552, "text": "狗图片的序列号是2"}
+{"audio_filepath": "./traindata/tts_horse1.wav", "duration": 3.4829931972789114, "text": "马图片的序列号是3"}
+{"audio_filepath": "./traindata/tts_horse2.wav", "duration": 3.599092970521542, "text": "马图片的序列号是3"}
+{"audio_filepath": "./traindata/tts_horse3.wav", "duration": 3.5526530612244898, "text": "马图片的序列号是3"}
+{"audio_filepath": "./traindata/tts_person1.wav", "duration": 3.4481632653061225, "text": "人图片的序列号是4"}
+{"audio_filepath": "./traindata/tts_person2.wav", "duration": 3.0882539682539685, "text": "人图片的序列号是4"}
+{"audio_filepath": "./traindata/tts_person3.wav", "duration": 3.250793650793651, "text": "人图片的序列号是4"}
